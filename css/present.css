@@ -1,0 +1,31 @@
+.present_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.present_wedding_box {
+  margin-top: 10%;
+}
+
+.present_wedding_image {
+  width: 85%;
+  filter: brightness(0.9);
+  border-radius: 5px;
+}
+
+.present_wedding_name {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5a4b4b;
+}
+
+.present_wedding_group {
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 48px;
+  font-size: 16px;
+  color: #685252;
+}
