@@ -1,0 +1,54 @@
+.calendar_container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-top: 1px solid;
+  border-color: rgba(210, 197, 197, 0.699);
+}
+
+th,
+td {
+  padding: 10px;
+  min-width: 50px;
+  height: 50px;
+  font-weight: 400;
+}
+
+th:first-child {
+  color: red;
+}
+
+th:last-child {
+  color: blue;
+}
+
+td.sunday {
+  color: red;
+}
+
+td.saturday {
+  color: blue;
+}
+
+td.holiday {
+  color: red;
+}
+
+.circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 32px;
+  border-radius: 50%;
+  background-color: #998d93;
+  color: white;
+  margin-bottom: 2px;
+}
