@@ -2,3 +2,15 @@
   background-color: #f5f3f2;
   margin-top: 60px;
 }
+
+.cordial_title {
+  padding-top: 30px;
+}
+
+.cordial_description {
+  padding-bottom: 10px;
+}
+
+.cordial_footer {
+  padding-bottom: 30px;
+}
