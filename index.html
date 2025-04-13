@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/cordial.css" />
     <link rel="stylesheet" href="./css/calendar.css" />
     <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/account_number.css" />
   </head>
   <body>
     <div>
@@ -29,44 +30,90 @@
           <span>루벨 강동 35층</span>
         </div>
       </div>
-    </div>
-    <div class="cordial_invitation_container">
-      <div class="center cordial_title">
-        <h3>모시는 글</h3>
+      <div class="cordial_invitation_container">
+        <div class="center cordial_title">
+          <h3>모시는 글</h3>
+        </div>
+        <div class="center cordial_description">
+          <span>저희들이 오늘이 있기까지 보내주신</span>
+        </div>
+        <div class="center cordial_description">
+          <span>따뜻한 사랑과 깊은 관심에 진심으로 감사하며,</span>
+        </div>
+        <div class="center cordial_description">
+          <span>저희 두 사람은 여러분의 축복을 받으며</span>
+        </div>
+        <div class="center cordial_description">
+          <span>진실한 가약을 맺고자 합니다.</span>
+        </div>
+        <div class="center cordial_description">
+          <span>부디 참석하시어 기쁨의 자리를 축복으로</span>
+        </div>
+        <div class="center cordial_description">
+          <span>더욱 빛내 주시길 바랍니다.</span>
+        </div>
+        <div class="cordial_footer"></div>
       </div>
-      <div class="center cordial_description">
-        <span>저희들이 오늘이 있기까지 보내주신</span>
+      <div class="calendar_container">
+        <div>
+          <h2>2025년 5월</h2>
+        </div>
+        <div id="calendar" class="center"></div>
       </div>
-      <div class="center cordial_description">
-        <span>따뜻한 사랑과 깊은 관심에 진심으로 감사하며,</span>
+      <div class="gallery_container"></div>
+
+      <div class="account_container">
+        <div class="account_group">
+          <h3>💙 신랑 측 계좌</h3>
+          <div class="account_section">
+            <div class="account_info">
+              <span class="bank_name">신한은행</span>
+              <span class="account_number" id="groomAccount"
+                >110-123-456789</span
+              >
+              <span class="account_holder">예금주: 김신랑</span>
+            </div>
+            <div class="account_actions">
+              <button
+                class="copy_btn"
+                onclick="copyAccountNumber('groomAccount')"
+              >
+                복사
+              </button>
+            </div>
+          </div>
+
+          <h3>💖 신부 측 계좌</h3>
+          <div class="account_section">
+            <div class="account_info">
+              <span class="bank_name">국민은행</span>
+              <span class="account_number" id="brideAccount"
+                >098-765-432100</span
+              >
+              <span class="account_holder">예금주: 이신부</span>
+            </div>
+            <div class="account_actions">
+              <button
+                class="copy_btn"
+                onclick="copyAccountNumber('brideAccount')"
+              >
+                복사
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="center cordial_description">
-        <span>저희 두 사람은 여러분의 축복을 받으며</span>
+
+      <div id="copy_toast" class="copy_toast">계좌번호가 복사되었습니다!</div>
+
+      <div id="modal" class="modal">
+        <div class="modal_click_zone left" onclick="prevImage()"></div>
+        <img id="modal_img" src="" />
+        <div class="modal_click_zone right" onclick="nextImage()"></div>
       </div>
-      <div class="center cordial_description">
-        <span>진실한 가약을 맺고자 합니다.</span>
-      </div>
-      <div class="center cordial_description">
-        <span>부디 참석하시어 기쁨의 자리를 축복으로</span>
-      </div>
-      <div class="center cordial_description">
-        <span>더욱 빛내 주시길 바랍니다.</span>
-      </div>
-      <div class="cordial_footer"></div>
-    </div>
-    <div class="calendar_container">
-      <div>
-        <h2>2025년 5월</h2>
-      </div>
-      <div id="calendar" class="center"></div>
-    </div>
-    <div class="gallery_container"></div>
-    <div id="modal" class="modal">
-      <div class="modal_click_zone left" onclick="prevImage()"></div>
-      <img id="modal_img" src="" />
-      <div class="modal_click_zone right" onclick="nextImage()"></div>
     </div>
     <script src="./js/calendar.js"></script>
     <script src="./js/gallery.js"></script>
+    <script src="./js/account_number.js"></script>
   </body>
 </html>
