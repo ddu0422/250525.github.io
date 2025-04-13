@@ -41,11 +41,18 @@
   border-radius: 10px;
 }
 
-.modal_close {
+.modal_click_zone {
   position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 1;
+}
+
+.modal_click_zone.left {
+  left: 0;
+}
+
+.modal_click_zone.right {
+  right: 0;
 }

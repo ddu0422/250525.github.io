@@ -61,8 +61,10 @@
       <div id="calendar" class="center"></div>
     </div>
     <div class="gallery_container"></div>
-    <div class="modal" id="modal" onclick="closeModal()">
-      <img id="modal_img" />
+    <div id="modal" class="modal">
+      <div class="modal_click_zone left" onclick="prevImage()"></div>
+      <img id="modal_img" src="" />
+      <div class="modal_click_zone right" onclick="nextImage()"></div>
     </div>
     <script src="./js/calendar.js"></script>
     <script src="./js/gallery.js"></script>
