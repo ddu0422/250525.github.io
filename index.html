@@ -63,44 +63,105 @@
       <div class="gallery_container"></div>
 
       <div class="account_container">
-        <div class="account_group">
+        <div class="account_new_section">
           <h3>💙 신랑 측 계좌</h3>
-          <div class="account_section">
-            <div class="account_info">
-              <span class="bank_name">신한은행</span>
-              <span class="account_number" id="groomAccount"
-                >110-123-456789</span
-              >
-              <span class="account_holder">예금주: 김신랑</span>
+          <div class="account_new_group">
+            <div class="account_row">
+              <div class="account_info">
+                <span class="bank_name">토스뱅크</span>
+                <span class="account_number" id="dhlee">1000-1234-1234</span>
+              </div>
+              <div class="copy_area">
+                <span class="account_holder">예금주: 이두호</span>
+                <button
+                  class="copy_btn inline"
+                  onclick="copyAccountNumber('dhlee')"
+                >
+                  복사
+                </button>
+              </div>
             </div>
-            <div class="account_actions">
-              <button
-                class="copy_btn"
-                onclick="copyAccountNumber('groomAccount')"
-              >
-                복사
-              </button>
+            <div class="account_row">
+              <div class="account_info">
+                <span class="bank_name">농협</span>
+                <span class="account_number" id="jalee">1000125-51-021491</span>
+              </div>
+              <div class="copy_area">
+                <span class="account_holder">예금주: 이장안</span>
+                <button
+                  class="copy_btn inline"
+                  onclick="copyAccountNumber('jalee')"
+                >
+                  복사
+                </button>
+              </div>
+            </div>
+            <div class="account_row">
+              <div class="account_info">
+                <span class="bank_name">우체국</span>
+                <span class="account_number" id="kschoi">011916-02-195610</span>
+              </div>
+              <div class="copy_area">
+                <span class="account_holder">예금주: 최금숙</span>
+                <button
+                  class="copy_btn inline"
+                  onclick="copyAccountNumber('kschoi')"
+                >
+                  복사
+                </button>
+              </div>
             </div>
           </div>
+        </div>
 
+        <div class="account_new_section">
           <h3>💖 신부 측 계좌</h3>
-          <div class="account_section">
-            <div class="account_info">
-              <span class="bank_name">국민은행</span>
-              <span class="account_number" id="brideAccount"
-                >098-765-432100</span
-              >
-              <span class="account_holder">예금주: 이신부</span>
+          <div class="account_new_group">
+            <div class="account_row">
+              <div class="account_info">
+                <span class="bank_name">토스뱅크</span>
+                <span class="account_number" id="dhlee">1000-1234-1234</span>
+              </div>
+              <div class="copy_area">
+                <span class="account_holder">예금주: 이두호</span>
+                <button
+                  class="copy_btn inline"
+                  onclick="copyAccountNumber('dhlee')"
+                >
+                  복사
+                </button>
+              </div>
             </div>
-            <div class="account_actions">
-              <button
-                class="copy_btn"
-                onclick="copyAccountNumber('brideAccount')"
-              >
-                복사
-              </button>
+            <div class="account_row">
+              <div class="account_info">
+                <span class="bank_name">농협</span>
+                <span class="account_number" id="jalee">1000125-51-021491</span>
+              </div>
+              <div class="copy_area">
+                <span class="account_holder">예금주: 이장안</span>
+                <button
+                  class="copy_btn inline"
+                  onclick="copyAccountNumber('jalee')"
+                >
+                  복사
+                </button>
+              </div>
             </div>
-          </div>
+            <div class="account_row">
+              <div class="account_info">
+                <span class="bank_name">우체국</span>
+                <span class="account_number" id="kschoi">011916-02-195610</span>
+              </div>
+              <div class="copy_area">
+                <span class="account_holder">예금주: 최금숙</span>
+                <button
+                  class="copy_btn inline"
+                  onclick="copyAccountNumber('kschoi')"
+                >
+                  복사
+                </button>
+              </div>
+            </div>
         </div>
       </div>
 

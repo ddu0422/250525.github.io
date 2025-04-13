@@ -31,16 +31,6 @@ function closeModal() {
 let currentIndex = 0;
 let startX = 0;
 
-// function openModal(src) {
-//   currentIndex = images.indexOf(src);
-//   document.getElementById("modal").style.display = "flex";
-//   document.getElementById("modal_img").src = src;
-// }
-
-// function closeModal() {
-//   document.getElementById("modal").style.display = "none";
-// }
-
 function prevImage() {
   currentIndex = (currentIndex - 1 + images.length) % images.length;
   document.getElementById("modal_img").src = images[currentIndex];

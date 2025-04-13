@@ -1,6 +1,22 @@
-.account_group {
-  margin: 24px auto;
-  font-family: sans-serif;
+.account_new_section {
+  padding: 8px 10px;
+  margin: 8px 8px;
+}
+
+.account_new_group {
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.account_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 8px;
 }
 
 .account_group h3 {
@@ -17,13 +33,30 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+.copy_btn {
+  font-size: 14px;
+  background-color: #45a049;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 6px 14px;
+}
+
 .account_info {
-  font-size: 15px;
-  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .bank_name {
+  display: inline-block;
+  min-width: 60px;
   font-weight: bold;
+}
+
+.account_number {
+  margin-left: 10px;
 }
 
 .account_holder {
@@ -31,37 +64,14 @@
   font-size: 13px;
 }
 
-.account_actions {
+.copy_area {
   display: flex;
-  gap: 8px;
-}
-
-.copy_btn,
-.send_btn {
-  padding: 6px 10px;
-  font-size: 14px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.copy_btn {
-  background-color: #4caf50;
-  color: white;
+  align-items: center;
+  gap: 10px;
 }
 
 .copy_btn:hover {
   background-color: #45a049;
-}
-
-.send_btn {
-  background-color: #2196f3;
-  color: white;
-}
-
-.send_btn:hover {
-  background-color: #1976d2;
 }
 
 .copy_toast {
