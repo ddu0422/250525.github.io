@@ -1,6 +1,20 @@
+.account_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .account_new_section {
   padding: 8px 10px;
   margin: 8px 8px;
+}
+
+.account_new_section h3 {
+  font-size: 18px;
+  margin: 10px 0px;
 }
 
 .account_new_group {
@@ -17,11 +31,6 @@
   align-items: center;
   padding-left: 10px;
   padding-top: 8px;
-}
-
-.account_group h3 {
-  font-size: 18px;
-  margin: 20px 16px 8px;
 }
 
 .account_section {
