@@ -80,7 +80,7 @@
         <div class="center">
           <button
             class="location_button copy_btn primary-background"
-            href="nmap://place?name=강동 루벨&lat=37.5365319&lng=127.1323567&appname=wedding-250525"
+            onclick="openNaverMap()"
           >
             네이버 지도 앱에서 보기
           </button>
@@ -245,6 +245,11 @@
       });
 
       infowindow.open(map, marker);
+
+      function openNaverMap() {
+        window.location.href =
+          "nmap://place?name=강동 루벨&lat=37.5365319&lng=127.1323567&appname=wedding-250525";
+      }
     </script>
   </body>
 </html>
