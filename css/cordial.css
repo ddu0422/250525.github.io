@@ -1,11 +1,10 @@
 .cordial_invitation_container {
-  background-color: #f5f3f2;
   margin-top: 60px;
-  color: #998d93;
 }
 
 .cordial_title {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .cordial_description {

@@ -7,6 +7,11 @@ body {
   margin-bottom: 10%;
 }
 
+.header-text {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .center {
   display: flex;
   justify-content: center;

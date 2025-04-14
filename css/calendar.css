@@ -6,6 +6,10 @@
   padding-top: 60px;
 }
 
+.calendar-title {
+  padding-bottom: 30px;
+}
+
 table {
   width: 90%;
   border-collapse: collapse;
