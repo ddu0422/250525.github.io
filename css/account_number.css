@@ -1,3 +1,8 @@
+.account_container {
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+
 .account_title {
   display: flex;
   justify-content: center;
@@ -16,7 +21,8 @@
 }
 
 .account_new_group {
-  padding: 12px 12px;
+  margin-top: 22px;
+  padding: 16px 12px;
   border-radius: 10px;
 }
 
@@ -26,15 +32,7 @@
   align-items: center;
   padding-left: 10px;
   padding-top: 8px;
-}
-
-.account_section {
-  border: 1px solid #ccc;
-  padding: 12px 16px;
-  border-radius: 10px;
-  margin: 8px 16px;
-  background-color: #fefefe;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding-bottom: 8px;
 }
 
 .copy_btn {
@@ -44,7 +42,8 @@
   cursor: pointer;
   white-space: nowrap;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
+  margin-right: 8px;
 }
 
 .account_info {
@@ -54,17 +53,13 @@
 
 .bank_name {
   display: inline-block;
-  min-width: 60px;
+  min-width: 50px;
   font-weight: bold;
   font-size: 15px;
 }
 
 .account_number {
-  font-size: 13px;
-}
-
-.account_holder {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .copy_area {
