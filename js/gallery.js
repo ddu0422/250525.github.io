@@ -1,13 +1,13 @@
 const images = [
   "./images/image01.jpeg",
-  "./images/image02.jpeg",
   "./images/image03.jpeg",
-  "./images/image04.jpeg",
   "./images/image05.jpeg",
-  "./images/image06.jpeg",
-  "./images/image07.jpeg",
-  "./images/image08.jpeg",
+  "./images/image14.jpeg",
   "./images/image09.jpeg",
+  "./images/image22.jpeg",
+  "./images/image24.jpeg",
+  "./images/image30.jpeg",
+  "./images/image32.jpeg",
 ];
 
 const galleryContainer = document.querySelector(".gallery_container");
