@@ -57,3 +57,12 @@ td.holiday {
   color: white;
   margin-bottom: 2px;
 }
+
+table tr:first-child td,
+table tr:first-child th {
+  padding-top: 20px;
+}
+
+table tr:last-child td {
+  padding-bottom: 30px;
+}
