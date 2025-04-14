@@ -10,6 +10,7 @@
   background-color: #5a4b4b;
 }
 
-.secondary-background {
+.secondary-background,
+.secondary-background:hover {
   background-color: #f5f3f2;
 }
