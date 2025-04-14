@@ -59,6 +59,16 @@
         </div>
         <div class="cordial_footer"></div>
       </div>
+
+      <div id="location"></div>
+      <div>
+        <a
+          href="nmap://place?name=강동 루벨&lat=37.5365319&lng=127.1323567&appname=wedding-250525"
+        >
+          네이버 지도 앱에서 보기
+        </a>
+      </div>
+
       <div class="calendar_container">
         <div class="calendar-title primary-color header-text">2025년 5월</div>
         <div id="calendar" class="center"></div>
@@ -184,8 +194,6 @@
         </div>
       </div>
 
-      <div id="map"></div>
-
       <div id="copy_toast" class="copy_toast">계좌번호가 복사되었습니다!</div>
 
       <div id="modal" class="modal">
@@ -197,12 +205,32 @@
     <script src="./js/calendar.js"></script>
     <script src="./js/gallery.js"></script>
     <script src="./js/account_number.js"></script>
-    <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zpvr0oivs7"></script>
+    <script
+      type="text/javascript"
+      src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=zpvr0oivs7"
+    ></script>
     <script>
-      var map = new naver.maps.Map("map", {
-        center: new naver.maps.LatLng(37.5665, 126.978), // 서울시청 좌표
-        zoom: 10,
+      const lat = 37.5365319;
+      const lng = 127.1323567;
+
+      const map = new naver.maps.Map("location", {
+        center: new naver.maps.LatLng(lat, lng),
+        zoom: 17,
       });
+
+      const marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(lat, lng),
+        map: map,
+        title: "강동 루벨",
+      });
+
+      const infowindow = new naver.maps.InfoWindow({
+        content: "<div style='padding:5px;'>강동 루벨</div>",
+        anchorSkew: true,
+        maxWidth: 200,
+      });
+
+      infowindow.open(map, marker);
     </script>
   </body>
 </html>
