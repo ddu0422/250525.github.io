@@ -10,7 +10,7 @@ const images = [
   "./images/image32.jpeg",
 ];
 
-const galleryContainer = document.querySelector(".gallery_container");
+const galleryContainer = document.querySelector(".gallery_body");
 
 images.forEach((src) => {
   const item = document.createElement("div");

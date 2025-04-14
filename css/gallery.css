@@ -1,4 +1,8 @@
-.gallery_container {
+.gallery_header {
+  margin-top: 60px;
+}
+
+.gallery_body {
   margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
