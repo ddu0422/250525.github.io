@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/gallery.css" />
     <link rel="stylesheet" href="./css/account_number.css" />
     <link rel="stylesheet" href="./css/color.css" />
+    <link rel="stylesheet" href="./css/location.css" />
   </head>
   <body>
     <div class="container">
@@ -183,6 +184,8 @@
         </div>
       </div>
 
+      <div id="map"></div>
+
       <div id="copy_toast" class="copy_toast">계좌번호가 복사되었습니다!</div>
 
       <div id="modal" class="modal">
@@ -194,5 +197,12 @@
     <script src="./js/calendar.js"></script>
     <script src="./js/gallery.js"></script>
     <script src="./js/account_number.js"></script>
+    <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zpvr0oivs7"></script>
+    <script>
+      var map = new naver.maps.Map("map", {
+        center: new naver.maps.LatLng(37.5665, 126.978), // 서울시청 좌표
+        zoom: 10,
+      });
+    </script>
   </body>
 </html>
