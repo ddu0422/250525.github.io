@@ -26,31 +26,31 @@ td {
   font-weight: 400;
 }
 
-th:first-child {
-  color: red;
-}
-
 th:last-child {
-  color: blue;
-}
-
-td.sunday {
-  color: red;
+  color: #808080;
 }
 
 td.saturday {
-  color: blue;
+  color: #808080;
+}
+
+th:first-child {
+  color: #e77975;
+}
+
+td.sunday {
+  color: #e77975;
 }
 
 td.holiday {
-  color: red;
+  color: #e77975;
 }
 
 .circle {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 32px;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
   border-radius: 50%;
   background-color: #998d93;
   color: white;
