@@ -1,9 +1,12 @@
-.gallery_header {
-  margin-top: 60px;
+.gallery_container {
+  background-color: #f8f8f8;
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
 .gallery_body {
-  margin-top: 60px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
   gap: 3px;
