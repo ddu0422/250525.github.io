@@ -60,18 +60,32 @@
         <div class="cordial_footer"></div>
       </div>
 
-      <div id="location"></div>
-      <div>
-        <a
-          href="nmap://place?name=강동 루벨&lat=37.5365319&lng=127.1323567&appname=wedding-250525"
-        >
-          네이버 지도 앱에서 보기
-        </a>
-      </div>
-
       <div class="calendar_container">
         <div class="calendar-title primary-color header-text">2025년 5월</div>
         <div id="calendar" class="center"></div>
+      </div>
+
+      <div class="location_container">
+        <div class="location_header center primary-color header-text">
+          오시는 길
+        </div>
+        <div
+          id="location_address"
+          class="location_address center"
+          onclick="copyLocationAddress('location_address')"
+        >
+          서울시 강동구 천호대로 1077 &nbsp;
+          <img src="./images/copy.png" width="15" height="15" />
+        </div>
+        <div class="center">
+          <button
+            class="location_button copy_btn primary-background"
+            href="nmap://place?name=강동 루벨&lat=37.5365319&lng=127.1323567&appname=wedding-250525"
+          >
+            네이버 지도 앱에서 보기
+          </button>
+        </div>
+        <div id="location"></div>
       </div>
 
       <div class="gallery_container">
@@ -194,7 +208,7 @@
         </div>
       </div>
 
-      <div id="copy_toast" class="copy_toast">계좌번호가 복사되었습니다!</div>
+      <div id="copy_toast" class="copy_toast">복사되었습니다!</div>
 
       <div id="modal" class="modal">
         <div class="modal_click_zone left" onclick="prevImage()"></div>

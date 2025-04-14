@@ -1,4 +1,21 @@
+.location_container {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.location_header {
+  margin-bottom: 30px;
+}
+
+.location_address {
+  margin-bottom: 16px;
+}
+
+.location_button {
+  margin-bottom: 30px;
+}
+
 #location {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }

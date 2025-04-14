@@ -1,3 +1,10 @@
+function copyLocationAddress(id) {
+  const accountText = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(accountText).then(() => {
+    showToast();
+  });
+}
+
 function copyAccountNumber(id) {
   const accountText = document.getElementById(id).innerText;
   navigator.clipboard.writeText(accountText).then(() => {
