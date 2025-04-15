@@ -96,21 +96,26 @@
         <div class="location_header center primary-color header-text">
           오시는 길
         </div>
-        <div
-          id="location_address"
-          class="location_address center"
-          onclick="copyLocationAddress('location_address')"
-        >
-          서울시 강동구 천호대로 1077 &nbsp;
-          <img src="./images/copy.png" width="15" height="15" />
-        </div>
-        <div class="center">
-          <button
-            class="location_button copy_btn primary-background"
-            onclick="openNaverMap()"
+        <div class="primary-color">
+          <div
+            id="location_address"
+            class="location_address center"
+            onclick="copyLocationAddress('location_address')"
           >
-            네이버 지도 앱에서 보기
-          </button>
+            서울시 강동구 천호대로 1077 &nbsp;
+            <img src="./images/copy.png" width="15" height="15" />
+          </div>
+          <div class="location_address center">
+            <div>강동역 1번 출구 (이스트 센트럴타워 35층)</div>
+          </div>
+          <div class="center">
+            <button
+              class="location_button copy_btn primary-background"
+              onclick="openNaverMap()"
+            >
+              네이버 지도 앱에서 보기
+            </button>
+          </div>
         </div>
         <div id="location"></div>
       </div>
