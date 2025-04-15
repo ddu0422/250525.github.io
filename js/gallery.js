@@ -3,10 +3,10 @@ const images = [
   "./images/image05.jpeg",
   "./images/image14.jpeg",
   "./images/image09.jpeg",
-  "./images/image23.jpeg",
   "./images/image22.jpeg",
   "./images/image24.jpeg",
   "./images/image30.jpeg",
+  "./images/image26.jpeg",
   "./images/image32.jpeg",
 ];
 
